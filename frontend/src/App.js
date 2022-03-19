@@ -12,7 +12,6 @@ import { BrowserRouter, BrowserRouter as Router, Route, Switch } from 'react-rou
 import ProfileScreen from "./components/AccountDetails/profileScreen";
 import NewPost from "./components/Posts/NewPost.js"
 
-console.log(process.env.HOST_URL);
 function App() {
 
     return (
