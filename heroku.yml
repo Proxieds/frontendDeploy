@@ -1,0 +1,5 @@
+build:
+  docker:
+    web: frontend/Dockerfile
+release:
+  image: web
