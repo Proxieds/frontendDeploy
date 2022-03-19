@@ -14,6 +14,10 @@ RUN yarn install --production
 # Except the one defined in '.dockerignore'
 COPY . .
 
+# Set Environment Variable
+ARG REACT_APP_HOST_URL
+ENV REACT_APP_HOST_URL=$HOST_URL
+
 # Create production build of React App
 RUN yarn build
 
