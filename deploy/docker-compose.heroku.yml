@@ -4,5 +4,7 @@ services:
     build:
       context: ../frontend
       dockerfile: Dockerfile
+      args:
+        - REACT_APP_BACKEND_URL=http://20.151.118.208:8000
     ports:
       - 80:80

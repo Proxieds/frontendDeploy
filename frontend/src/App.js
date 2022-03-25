@@ -12,6 +12,10 @@ import { BrowserRouter, BrowserRouter as Router, Route, Switch } from 'react-rou
 import ProfileScreen from "./components/AccountDetails/profileScreen";
 import NewPost from "./components/Posts/NewPost.js"
 
+console.log("HERE");
+console.log(process.env.REACT_APP_HOST_URL ? process.env.REACT_APP_HOST_URL : "IDK");
+console.log(process.env.REACT_APP_BACKEND_URL);
+
 function App() {
 
     return (
